@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bg{
+    background-color: #0072bc;
+    padding: 5px;
+    
+}
+.sticky{
+    position: sticky !important;
+}
+.social{
+   padding-left: 200px;
+}
+.Tomorrow{
+    font-family:cursive;
+    color: #212529;
+    background-image: linear-gradient(50deg , #0072bc , #d22215);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.col-sm-6{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn.btn-primary.login{
+    border-radius: 20px;
+}
+.btn.btn-primary.login:hover{
+    border-radius: 20px;
+    background-color: white;
+    color: #0072bc;
+}
+.btn.btn-light.admission{
+    border-radius: 20px;
+    border-color: #0072bc;
+    margin-left: 20px;
+    color: #0072bc;
+}
+.btn.btn-light.admission:hover{
+    border-radius: 20px;
+    border-color: #0072bc;
+    margin-left: 20px;
+    background-color: #0072bc;
+    color: white;
+}
+.navbar  {
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    margin-left: 100px;
+}
+.sticky-top ul{
+    margin-top: 5px;
+    height: 10px;
+}
+.navbar li{
+    display: inline;
+    padding-right: 9px;   
+}
+.navbar ul li a:hover{
+    background-color:#0072bc;
+    color: white;
+    /* font-size: 20px; */
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.col-sm-10{
+    background-color: #0072bc;
+    color: white;
+    border-radius: 0px 0px 10px 0px;
+    height: 40px;
+}
+.col-sm-2{
+    background-color: #d22215;
+    color: white;
+    border-radius: 0px 0px 0px 10px;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+   
+}
+.container-fluid2{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.news{
+    margin-top: 10px;
+    
+}
+.row .col-news {
+    height: 0px;   
+}
+.hadiing{
+    color: gray;
+}
+.text{
+    font-family: cursive;
+}
+.pic2{
+    box-shadow: 0.5rem 0px 0px 0px pink, 0px 0.5rem 0px 0px #131E3A, 0px -0.5rem 0px 0px pink, -0.5rem 0px 0px 0px #131E3A;
+    padding: 8px;
+height: 300px;
+width: 450px;
+}
+
+.btn{
+    border: 2px solid #142141;
+    border-radius:25px ; 
+}
+.btn.btn-secondary{
+    border-radius: 20px;
+box-shadow: 3px 3px 0px 0px gray;
+}
+.btn.btn-secondary:hover{
+    border-radius: 20px;
+box-shadow: 3px 3px 0px 0px gray;
+color: #ffc107;
+}
+.satyavir{
+    text-align: center;
+    color: #0072bc;
+}
+.edu{
+    text-align: center;
+    font-family: cursive;
+}
+.edu1{
+    text-align: center;
+    font-family: cursive;
+    line-height: 2.100;
+}
+center{
+   margin-left: 100px;
+}
+ol li .orders{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    margin-left: 5px;
+}
+ol li a:hover{
+    text-decoration: none;
+    color: black;
+}
+.Platforms{
+    margin-top: 30px;
+    color: #ffc107;
+}
+.container-fluid3{
+    background-color:#142441;
+    color: white;
+    height: 700px;
+}
+.Platforms1{
+  font-size: 30px;
+}
+.gallery{
+    color: #0072bc;
+}
+.event-img{
+    color: black;
+}
+.container-fluid4{
+    margin-top: 100PX;
+    font-size: 30px;
+}
+.pic{
+    padding-right: 10px;
+}
+.view{
+    margin-left: 50%;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+.container-fluid5{
+    background-color:#17a2b8 ;
+    margin-top: 50px;
+    height: 600px;
+}
+.camp{
+    font-size: 30px;
+    color: #142141;
+}
+.footer-add{
+    font-size: 20px;
+    margin-top: 10PX;
+    color: white;
+}
+.link{
+    color: #ffc107;
+    list-style: none;
+    margin-left: 30px;
+}
+.link1{
+    color: white;
+}
+
+ul li a{
+    text-decoration: none;
+   }
+ul li a:hover{
+    text-decoration: none;
+    color: #ffc107;
+   }
+li {
+    margin-top: 30px;
+}
+.container-fluid6{
+    background-color: #142441;
+}
+.footer{
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px){
+    *{
+        margin: 0px;
+        padding: 0px;
+      }
+    .header .container-fluid{      
+        display:block;
+    }
+    .row.bg.text-white {
+        text-align: center;
+    }
+    .col-sm-2{
+        border-radius:0px 0px 0px 0px ;
+    }
+    .col-sm-10{
+        border-radius:0px 0px 10px 10px ;
+    }
+     .row1{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .pic2{
+        width: 350px;
+    }
+
+    
+    .container-fluid5{
+        background-color:#17a2b8 ;
+        margin-top: 50px;
+        height: 663px;
+    }
+    .container-fluid3{
+        height: 1700px;
+       
+    }
+    .container-fluid6{
+        display: block;
+    }
+    center{
+        margin-left: 50px;
+    }
+    .navbar{
+        background-color: white;
+        margin-bottom: 10px; 
+    }
+      
+
+}
+
+
+li{
+    margin-top: 0px;
+   color: black;
+}
+.navbar-nav{
+    margin-left: 20%;
+}
+.home{
+    padding: 10px;
+}
+
+
+
